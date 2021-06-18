@@ -1,11 +1,8 @@
-# latest_tutorial.py
-
-from reader import feed
-
+# Python Timer Test
 def main():
-    """Download and print the latest tutorial from Real Python"""
-    tutorial = feed.get_article(0)
-    print(tutorial)
+   
+    Test = time.gmtime(0)
+    print(Test)
 
 if __name__ == "__main__":
     main()
