@@ -1,0 +1,16 @@
+#Python timer that will take in an imputted time and then print
+
+import time , threading
+from datetime import datetime
+
+def main():
+	print("Much time has passed")
+
+timer = threading.Timer(15.0, main)
+print("now keeping time!\n")
+timer.start()
+
+#class TimerError(Exception):
+
+
+#class Timer:
