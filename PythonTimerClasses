@@ -1,7 +1,7 @@
 # timer.py
 
 import time
-
+#this is actually a stop watch so fuck me i guess
 class Timer:
     
     def __init__(self):
@@ -26,3 +26,5 @@ print(timer.message)
 
 timer.set_message("bye")
 print(timer.message)
+
+print("Time is over")
